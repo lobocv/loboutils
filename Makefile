@@ -19,3 +19,4 @@ $(OUTPUT_DIR)/$(TARGET).o:
 
 clean:
 	rm $(OUTPUT_DIR)/*
+	touch $(OUTPUT_DIR)/__init__.py
